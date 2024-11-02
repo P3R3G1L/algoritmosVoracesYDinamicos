@@ -47,16 +47,16 @@ def entregar_dinero(cantidad_solicitada):
     resultado = {f"{billete['valor']} COP": billete["usados"] for billete in billetes}
     return resultado
 
-cantidad_solicitada1 = 5000000
-cantidad_solicitada2 = 540000
-cantidad_solicitada3 = 580000
-cantidad_solicitada4 = 3880000
+cantidad_solicitada1 = 380000
+#cantidad_solicitada2 = 540000
+#cantidad_solicitada3 = 580000
+#cantidad_solicitada4 = 3880000
 
 resultado1 = entregar_dinero(cantidad_solicitada1)
-resultado2 = entregar_dinero(cantidad_solicitada2)
-resultado3 = entregar_dinero(cantidad_solicitada3)
-resultado4 = entregar_dinero(cantidad_solicitada4)
+#resultado2 = entregar_dinero(cantidad_solicitada2)
+#resultado3 = entregar_dinero(cantidad_solicitada3)
+#resultado4 = entregar_dinero(cantidad_solicitada4)
 print(resultado1)
-print(resultado2)
-print(resultado3)
-print(resultado4)
+#print(resultado2)
+#print(resultado3)
+#print(resultado4)
